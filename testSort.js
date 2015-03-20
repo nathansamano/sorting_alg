@@ -1,0 +1,13 @@
+load('sort.js');
+var nums = new CArray(10);
+nums.setData();
+print(nums.toString());
+nums.bubbleSort();
+//nums.selectionSort();
+//nums.insertionSort();
+//nums.shellsort();
+//nums.shellsort2();
+//nums.mergeSort();
+//nums.qSort();
+print();
+print(nums.toString());
